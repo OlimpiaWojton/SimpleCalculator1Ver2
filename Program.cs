@@ -27,8 +27,8 @@
                 Console.Clear();
                 Console.WriteLine($"First number is {x} and second number is {y}");
                 Console.WriteLine();
-                Console.Write("Decide what to do");
-                Console.WriteLine("\n");
+                Console.WriteLine("Decide what to do");
+                Console.WriteLine();
                 Console.WriteLine("Add press 1");
                 Console.WriteLine("Subtract press 2");
                 Console.WriteLine("Multiply press 3");
@@ -62,7 +62,7 @@
                             break;
                         }
                     case 3:
-                        {
+                        {   
                             result = x * y;
                             Console.WriteLine($"{x} * {y} = {result}");
                             break;
